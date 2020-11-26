@@ -1,0 +1,203 @@
+@import './buttons';
+@import './card';
+@import './techstack';
+@import './fades';
+
+* {
+  font-family: Montserrat;
+  font-weight: 400;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 1rem;
+}
+a {
+  color: rgb(32, 45, 52);
+  text-decoration: none;
+}
+
+.MainContainer1 {
+  background: linear-gradient(180deg, rgb(44,46,75), rgb(14, 46, 59) 70.71%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+  @media screen and (max-width: 800px) {
+    place-items: none;
+    height: 450px;
+  }
+  @media screen and (max-width: 600px) {
+    height: 600px;
+  }
+  @media screen and (max-width: 400px) {
+    height: 700px;
+  }
+}
+
+.ContactContainer {
+  background: #45606B;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.arrow2 {
+  display: inline-block;
+}
+
+.what {
+  display: inline-block;
+}
+
+a:visited {
+  color: rgb(32, 45, 52);
+}
+
+.Container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.MainContent {
+  background: linear-gradient(360deg, #68b9f7, #047cd8);
+}
+
+.MainContent2 {
+  padding-bottom: 1rem;
+}
+
+.Content {
+  padding-bottom: 1rem;
+}
+.projects {
+  margin: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.bounce {
+  cursor: pointer;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  font-size: 2rem;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Content {
+    padding-bottom: 2rem;
+  }
+  .bounce {
+    font-size: 1rem;
+  }
+  .blogcontent {
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 557px) {
+  .projects {
+    grid-template-columns: none;
+  }
+
+  .comic {
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  a {
+    font-size: 15px;
+  }
+  .centerprojects {
+    margin: 0;
+  }
+}
+
+ul {
+  padding: 2rem 0;
+  margin: 0;
+}
+
+li {
+  font-family: Montserrat;
+  font-weight: 400;
+  list-style: none;
+}
+
+.Pu {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.Pu2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+.Projheader {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.comic {
+  margin-top: 3rem;
+  color: rgb(245, 221, 102);
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+.thang {
+  margin: 2rem 0;
+}
+.bigseperator {
+  z-index: 990;
+}
+.lastseperator {
+  color: black;
+}
+
+.title {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.tilt {
+  cursor: pointer;
+}
