@@ -32,7 +32,7 @@ export const projects = {
   },
   crypto: {
     name: 'Crypto Tracker - Dashboard to review Crypto Investments',
-    stack: 'Rails, Javascript, PostGres, Axios',
+    stack: 'React, Redux, Firebase',
     desc:
       'Crypto investments are complicated and it is difficult for investors in cryptocurrencies to view their portfolio without the jargon. The crypto tracker will connect to the crypto.com api to give a simplified dashboard to review not only your investment value, but provide information on other features of crypto in simple terms.',
     image:
