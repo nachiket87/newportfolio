@@ -11,12 +11,14 @@ const FirstPageInfo = () => {
   return (
     <>
       <Info>
-        I’ve worked in sales and business development. After moving to Canada a
-        few years ago, I decided to make a transition.
+        I'm a full stack developer that enjoys challenging myself constantly.
+        Becoming a developer has truly been a life changing experience. There is
+        nothing I enjoy more than spending hours trying to solve problems.
       </Info>
       <Info style={{ marginBottom: '2rem' }}>
         I’ve taught myself several technologies listed below and also completed
-        a prestigious web development bootcamp in Montreal.
+        a prestigious web development bootcamp in Montreal. I've built several
+        projects, keep scrolling to check them out!
       </Info>
     </>
   )
