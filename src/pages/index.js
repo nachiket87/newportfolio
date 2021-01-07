@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import App from "../components/App"
+import Profile from "../../static/images/nachi.jpg"
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <meta property="og:title" content="code by @nachiket" />
         <meta charSet="utf-8" />
         <link rel="canonical" href="https://www.nachiket.ca" />
-        <meta property="og:image" content="../../static/images/nachi.jpg" />
+        <meta property="og:image" content={Profile} />
         <meta
           name="description"
           content="web development portfolio · full stack developer based in montreal · get in touch at nachiket.pusalkar@gmail.com"
@@ -28,7 +29,7 @@ export default function Home() {
           name="twitter:description"
           content="web development portfolio · full stack developer based in montreal · get in touch at nachiket.pusalkar@gmail.com.com"
         />
-        <meta name="twitter:image" content="../../static/images/nachi.jpg" />
+        <meta name="twitter:image" content={Profile} />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <App />
