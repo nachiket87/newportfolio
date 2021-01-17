@@ -35,7 +35,7 @@ const FirstPage = () => {
       >
         <img
           className="avatar"
-          src="https://res.cloudinary.com/dgudbai8t/image/upload/v1603761045/pic11_jgji4x.png"
+          src="https://res.cloudinary.com/dgudbai8t/image/upload/v1610656433/0iluk317fyt7wkmm9luvz91h66hx.jpg"
         />
         <div className="Pu" style={{ color: "rgb(245,221,102)" }}>
           Hello My Name is Nachiket!{"\n"}
