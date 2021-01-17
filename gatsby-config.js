@@ -7,39 +7,42 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Nachket Pusalkar',
-    titleTemplate: '%s · Full Stack Developer',
+    title: "Nachiket Pusalkar",
+    titleTemplate: "%s · Full Stack Developer",
     description:
-      'Full Stack Developer with experience in Rails, React, Databases, and Deployment',
-    url: 'https://www.nachiket.ca', // No trailing slash allowed!
-    image: '/images/nachi.jpg', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@nachiketp87',
+      "Full Stack Developer with experience in Rails, React, Databases, and Deployment",
+    siteUrl: "https://www.nachiket.ca", // No trailing slash allowed!
+    image: "/images/nachi.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@nachiketp87",
+    keywords:
+      "montreal, developer, rails, ruby, python, javascript, react, full stack, programmer",
+    author: "nachiket pusalkar",
   },
   plugins: [
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'images',
+        name: "images",
         path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: ['Montserrat:400,900'],
+        fonts: ["Montserrat:400,900"],
       },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
           include: /assets/,
         },
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-fontawesome-css',
-    'gatsby-plugin-sass',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-fontawesome-css",
+    "gatsby-plugin-sass",
   ],
 }
