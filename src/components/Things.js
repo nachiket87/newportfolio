@@ -1,7 +1,7 @@
-import React from 'react'
-import Img from 'gatsby-image'
-import { useStaticQuery, graphql } from 'gatsby'
-import Tilt from 'react-tilt'
+import React from "react"
+import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
+import Tilt from "react-tilt"
 
 const Things = props => {
   const l = props
@@ -34,7 +34,7 @@ const Things = props => {
 
   return (
     <div className="card-product">
-      <p className="Pu2" style={{ color: 'white' }}>
+      <p className="Pu2" style={{ color: "white" }}>
         {l.items.name}
       </p>
       <div className="projects">
@@ -49,14 +49,14 @@ const Things = props => {
               transition: true,
               axis: null,
               reset: true,
-              easing: 'cubic-bezier(.03,.98,.52,.99)',
+              easing: "cubic-bezier(.03,.98,.52,.99)",
             }}
             className="tilt"
           >
-            <div style={{ padding: '1rem' }}>
+            <div style={{ padding: "1rem" }}>
               <Img
                 style={{
-                  boxShadow: '1px 1px 6px white',
+                  boxShadow: "1px 1px 6px white",
                 }}
                 fluid={img.childImageSharp.fluid}
               />
@@ -65,13 +65,13 @@ const Things = props => {
         </a>
         <div
           style={{
-            display: 'flex',
-            fontWeight: '400',
-            flexDirection: 'column',
+            display: "flex",
+            fontWeight: "400",
+            flexDirection: "column",
           }}
         >
-          <div style={{ padding: '2rem' }}>
-            <span style={{ fontWeight: '900' }}> Tech Stack:</span>{' '}
+          <div style={{ padding: "2rem" }}>
+            <span style={{ fontWeight: "900" }}> Tech Stack:</span>{" "}
             {l.items.stack}
             <br />
             <br />
@@ -80,18 +80,18 @@ const Things = props => {
             <br />
             {l.items.note ? (
               <>
-                <span style={{ fontWeight: '900' }}>Note:</span> {l.items.note}{' '}
+                <span style={{ fontWeight: "900" }}>Note:</span> {l.items.note}{" "}
               </>
             ) : (
-              ''
+              ""
             )}
           </div>
-          <span style={{ alignItems: 'center' }}>
+          <span style={{ alignItems: "center" }}>
             {l.items.repo ? (
               <a
                 href={l.items.repo}
                 className="btn btn-1"
-                style={{ color: 'white' }}
+                style={{ color: "white" }}
               >
                 <svg>
                   <rect x="0" y="0" fill="none" width="100%" height="100%" />
@@ -109,7 +109,7 @@ const Things = props => {
           </span>
         </div>
       </div>
-      <hr style={{ margin: '1rem' }} />
+      <hr style={{ margin: "1rem" }} />
     </div>
   )
 }
