@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 
 const Info = styled.p`
   font-family: Montserrat;
@@ -11,15 +11,11 @@ const FirstPageInfo = () => {
   return (
     <>
       <Info>
-        I'm a full stack developer that enjoys challenging myself constantly.
-        Becoming a developer has truly been a life changing experience. There is
-        nothing I enjoy more than spending hours trying to solve problems.
+        I'm a full stack developer that enjoys challenging myself constantly. I
+        live in Canada and currently work mostly with Ruby on Rails and React.
+
       </Info>
-      <Info style={{ marginBottom: '2rem' }}>
-        I’ve taught myself several technologies listed below and also completed
-        a prestigious web development bootcamp in Montreal. I've built several
-        projects, keep scrolling to check them out!
-      </Info>
+      <Info style={{ marginBottom: "2rem" }}></Info>
     </>
   )
 }
