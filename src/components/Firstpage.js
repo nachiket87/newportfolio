@@ -1,45 +1,32 @@
-import React from "react"
+import React from 'react'
 
-import FirstPageInfo from "./FirstPageInfo"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "react-scroll"
+import FirstPageInfo from './FirstPageInfo'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-scroll'
 
 const FirstPage = () => {
-  const b = new Date()
-  const n = b.getDay()
-  const whichday = [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ]
-  const today = n === 0 ? whichday[0] : whichday[n - 1]
-
   return (
     <div
       className="MainContainer1"
       style={{
-        display: "grid",
-        placeItems: "center",
+        display: 'grid',
+        placeItems: 'center',
       }}
     >
       <div
         className="Container"
         style={{
-          color: "rgb(144,245,248)",
+          color: 'rgb(144,245,248)',
         }}
       >
         <img
           className="avatar"
           src="https://res.cloudinary.com/dgudbai8t/image/upload/c_thumb,w_200,g_face/v1610656433/0iluk317fyt7wkmm9luvz91h66hx.jpg"
         />
-        <div className="Pu" style={{ color: "rgb(245,221,102)" }}>
-          Hello My Name is Nachiket!{"\n"}
-          Hope you're having a great {today}
+        <div className="Pu" style={{ color: 'rgb(245,221,102)' }}>
+          Hello My Name is Nachiket!{'\n'}
+          Hope you're having a great day
         </div>
         <FirstPageInfo />
         <a
@@ -55,7 +42,7 @@ const FirstPage = () => {
           <FontAwesomeIcon
             icon={faChevronDown}
             style={{
-              color: "white",
+              color: 'white',
             }}
           />
         </div>
