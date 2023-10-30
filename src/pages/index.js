@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.nachiket.ca" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dppe5cx49/image/upload/v1610128351/pp_jicrdd.jpg"
+          content="https://stopricks.s3.amazonaws.com/photo.webp"
         />
         <meta
           name="description"
@@ -26,16 +26,6 @@ export default function Home() {
           content="web development portfolio · full stack developer based in montreal · get in touch at nachiket.pusalkar@gmail.com"
         />
         <meta property="fb:app_id" content="1302230373483580" />
-        <meta name="twitter:title" content="code by @nachiketp87" />
-        <meta
-          name="twitter:description"
-          content="web development portfolio · full stack developer based in montreal · get in touch at nachiket.pusalkar@gmail.com.com"
-        />
-        <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/dppe5cx49/image/upload/v1610128351/pp_jicrdd.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <App />
     </>
