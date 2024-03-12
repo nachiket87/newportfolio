@@ -20,10 +20,6 @@ const FirstPage = () => {
           color: 'rgb(144,245,248)',
         }}
       >
-        <img
-          className="avatar"
-          src="https://stopricks.s3.amazonaws.com/photo.webp"
-        />
         <div className="Pu" style={{ color: 'rgb(245,221,102)' }}>
           Hello My Name is Nachiket!{'\n'}
           Hope you're having a great day
